@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cropped Tops</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { 
+      font-family: 'Poppins', sans-serif; 
+      margin: 0; 
+      background: linear-gradient(to right, #fdfcfb, #e2d1c3); 
+      padding: 30px;
+    }
+
+    h1 { 
+      text-align: center; 
+      margin-bottom: 40px;
+      color: #333;
+      font-weight: 600;
+    }
+
+    .products { 
+      display: grid;
+      gap: 20px; 
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+      max-width: 1000px; 
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    .product-card { 
+      background: #fff; 
+      border-radius: 16px; 
+      padding: 15px; 
+      text-align: center; 
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .product-card img { 
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .product-name { 
+      margin-top: 15px; 
+      font-weight: 600; 
+      font-size: 1rem; 
+      color: #333;
+    }
+
+    .price { 
+      font-size: 0.95rem; 
+      color: #888; 
+      margin-top: 5px;
+    }
+
+    .product-card a { 
+      text-decoration: none; 
+      color: inherit; 
+    }
+    
+  </style>
+</head>
+<body>
+
+  <h1>Cropped Tops</h1>
+
+  <div class="products">
+
+    <div class="product-card">
+      <a href="product1.html">
+        <img src="https://images.bestsellerclothing.in/data/only/07-nov-2024/901325801_g2.jpg?width=1080&height=1355&mode=fill&fill=blur&format=auto" alt="Pink Crop">
+        <div class="product-name">Pink Crop</div>
+        <div class="price">₹450</div>
+      </a>
+    </div>
+
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREzqQIO2CURfR0WLRrRla25DfSG8971rwT6w&s" alt="Urban Crop">
+      <div class="product-name">Urban Crop</div>
+      <div class="price">₹499</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSID7nttBXDSvc-sdwSL4xd2yI7aTbdSYasOQ&s" alt="Trendy Tee">
+      <div class="product-name">Trendy Tee</div>
+      <div class="price">₹520</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpwvQ287K_xIyIsx527O1oLQbli1hIL7_gag&s" alt="White Ribbed">
+      <div class="product-name">White Ribbed</div>
+      <div class="price">₹399</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqGl6xuSiLVoMnwZ9gulHdc3LBdTBi2DrHQA&s" alt="Minimalist Crop">
+      <div class="product-name">Minimalist Crop</div>
+      <div class="price">₹430</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://i.pinimg.com/736x/c9/2d/af/c92daffdde7312582f646b9a8cec8a01.jpg" alt="Graphic Crop top">
+      <div class="product-name">Graphic Crop top</div>
+      <div class="price">₹470</div>
+    </div>
+
+  </div>
+
+</body>
+</html>

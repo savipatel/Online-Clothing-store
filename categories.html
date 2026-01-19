@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Categories</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #fdfcfb, #e2d1c3); 
+      color: #d0c4cb;
+    }
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.category-list {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.category-list a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+  padding: 15px 20px;
+  background: #e9e5e7;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.category-list a::after {
+  content: '';
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  width: 0;
+  height: 2px;
+  background-color: #f39c12;
+  transition: width 1.9s ease;
+}
+
+.category-list a:hover {
+  background: #fff6e0;
+}
+
+.category-list a:hover::after {
+  width: 50%;
+}
+</style>
+</head>
+<body>
+
+  <h1 style="color: #0e0008;">Product Categories</h1>
+
+  <div class="category-list">
+    <a href="products-cropped.html"> Cropped</a>
+    <a href="products-casual.html"> Casual </a>
+    <a href="products-shirts.html"> Shirts </a>
+    <a href="products-winter.html"> Winter </a>
+    <a href="products-summer.html"> Summer </a>
+  </div>
+
+</body>   
+</html>   

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Cart</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #fdfcfb;
+      padding: 20px;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .cart-container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .cart-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 15px;
+    }
+
+    .cart-item img {
+      width: 100px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-right: 20px;
+    }
+
+    .item-details {
+      flex: 1;
+    }
+
+    .item-name {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    .item-price {
+      color: #e67e22;
+      margin: 6px 0;
+    }
+
+    .quantity {
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .total {
+      text-align: right;
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-top: 20px;
+      color: #6d1b4b;
+    }
+
+    .checkout-btn {
+      display: block;
+      text-align: center;
+      margin: 30px auto 0;
+      background-color: #f39c12;
+      color: white;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 30px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s ease;
+      width: fit-content;
+    }
+
+    .checkout-btn:hover {
+      background-color: #e67e22;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Your Shopping Cart</h1>
+  <div class="cart-container">
+
+    <div class="cart-item">
+      <img src="https://images.bestsellerclothing.in/data/only/07-nov-2024/901325801_g2.jpg" alt="Pink Crop">
+      <div class="item-details">
+        <div class="item-name">Pink Crop Top</div>
+        <div class="item-price">₹450</div>
+        <div class="quantity">Quantity: 1</div>
+      </div>
+    </div>
+
+    <div class="cart-item">
+      <img src="https://imagescdn.pantaloons.com/img/app/product/9/982788-12974920.jpg" alt="Striped Casual">
+      <div class="item-details">
+        <div class="item-name">Striped Casual Tee</div>
+        <div class="item-price">₹590</div>
+        <div class="quantity">Quantity: 2</div>
+      </div>
+    </div>
+
+    <div class="total">Total: ₹1,630</div>
+
+    <a href="#" class="checkout-btn">Proceed to Checkout</a>
+
+  </div>
+
+</body>
+</html>

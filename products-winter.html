@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Winter Wear</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: linear-gradient(to right, #fdfcfb, #e2d1c3);
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .product-card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 12px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 10px;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .product-name {
+      margin-top: 10px;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .price {
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <h1> Winter Collection</h1>
+  <div class="products">
+    
+    <div class="product-card">
+      <a href="product4.html">
+      <img src="https://m.media-amazon.com/images/I/61W9ES4ofJL._AC_UY1100_.jpg" alt="Puffer Jacket">
+      <div class="product-name">Puffer Jacket</div>
+      <div class="price">₹1,200</div>
+    </a>
+    </div>
+
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVeaExWSKZxeK7sbzf893X15DGzncX3JJpfQ&s" alt="Wool Coat">
+      <div class="product-name">Wool Coat</div>
+      <div class="price">₹1,450</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRjM16oNRi4Np8dZ3xYUshTBVxKA542jtfTg&s" alt="Knitted Sweater">
+      <div class="product-name">Knitted Sweater</div>
+      <div class="price">₹899</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1xepIMjmQGNloYSdJS4g5JUR9KVSbVjCVCw&s" alt="Oversized Hoodie">
+      <div class="product-name">Oversized Hoodie</div>
+      <div class="price">₹799</div>
+    </div>
+  </div>
+
+</body>
+</html>

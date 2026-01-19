@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casual Wear</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #fdfcfb, #e2d1c3);
+      color: #3a3a3a;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    .product-card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .product-card img:hover {
+      transform: scale(1.05);
+    }
+
+    .product-name {
+      margin-top: 15px;
+      font-weight: 600;
+      font-size: 1rem;
+      color: #333;
+    }
+
+    .price {
+      font-size: 0.95rem;
+      color: #888;
+      margin-top: 5px;
+    }
+
+    .product-card a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>Casual Collection</h1>
+
+  <div class="products">
+    <div class="product-card">
+      <a href="product2.html">
+        <img src="https://imagescdn.pantaloons.com/img/app/product/9/982788-12974920.jpg?auto=format&w=450" alt="Striped Casual">
+        <div class="product-name">Striped Casual</div>
+        <div class="price">₹515</div>
+      </a>
+    </div>
+
+    <div class="product-card">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKYp3uGfAFjWQQkxYEvCoi9co0VzUrD06wqw&s" alt="Everyday Tee">
+        <div class="product-name">Everyday Tee</div>
+        <div class="price">₹499</div>
+    </div>
+
+    <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmmpo3QJRfIM9zDNxYB6eOGbGhgcWLJhzjgg&s" alt="Relaxed Fit">
+        <div class="product-name">Relaxed Fit</div>
+        <div class="price">₹540</div>
+    </div>
+
+    <div class="product-card">
+        <img src="https://seeqactive.com/cdn/shop/products/seeq0663.jpg?v=1720172761" alt="Breezy Wear">
+        <div class="product-name">Breezy Wear</div>
+        <div class="price">₹470</div>
+
+    </div>
+
+    <div class="product-card">
+        <img src="https://vyve.in/cdn/shop/files/weekend6_2c8fcd5a-3265-4069-900d-679f924fe93a.jpg?v=1711038459&width=1445" alt="Weekend Look">
+        <div class="product-name">Weekend Look</div>
+        <div class="price">₹520</div>
+    </div>
+
+    <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQnGlZ0vZUMdLts2K6tw8YHjUY2MvwZdL_fg&s" alt="Casual Cotton">
+        <div class="product-name">Casual Cotton</div>
+        <div class="price">₹590</div>
+    </div>
+    
+  </div>
+
+</body>
+</html>
